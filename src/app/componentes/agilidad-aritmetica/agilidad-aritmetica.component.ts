@@ -1,5 +1,5 @@
 import { Component, OnInit ,Input,Output,EventEmitter} from '@angular/core';
-import { JuegoAgilidad } from '../../clases/juego-agilidad'
+import { JuegoAgilidad } from '../../clases/Juego-agilidad'
 
 import {Subscription} from "rxjs";
 import {TimerObservable} from "rxjs/observable/TimerObservable";
@@ -39,6 +39,7 @@ export class AgilidadAritmeticaComponent implements OnInit {
       }, 900);
 
   }
+
   verificar()
   {
     this.ocultarVerificar=false;

@@ -45,7 +45,7 @@ export class MiHttpService {
     return res.json() || {};
   }
 
-  private handleError ( error: Response | Response )
+  private handleError ( error: Response | any )
   {
     return error;
   }
